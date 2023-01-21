@@ -1,0 +1,26 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-top: 49px;
+}
+
+.box-input{
+    height: 61px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.columns{
+    width:50%;
+}
+.text-area{
+    height: 197px !important;
+}

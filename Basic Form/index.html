@@ -12,34 +12,59 @@
 </head>
 <body>
     <div class="container">
-        <div class="columns">
-            <label for="Text Field" >Text Field</label><br>
-            <input class = "box-input" type="Text" placeholder="Input Text" required>
-            <br>
-            <label for="Field" >Select Field</label><br>
-            <select class = "box-input" name="Field" id="Select-Field" placeholder="Select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select> 
-            <br>
-            <label for="Text Area" >Text Area</label><br>
-            <input class = "box-input" type="Text" required>
-            <br>
-            <label for="Text Field" >Text Area with Add-ons</label>
-            <!-- a text input will come -->
-
+        <div class="column column-one">
+            <div>
+                <label for="text-field">Text Field</label><br>
+                <input class="input-box" type="Text" placeholder="Input Text">
+            </div>
+            <div>
+                <label for="text-field">Select Field</label><br>
+                <select class="input-box" id="select" name="options" id="select-field">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div>
+                <label for="text-field">Text Area</label><br>
+                <input class="input-box input-textarea" type="Text" placeholder="Text Area">
+            </div>
+            <div>
+                <label for="text-field">Text Field with Add-ons</label><br>
+                <div class="text-addon">
+                    <input style="width: 100px;" class="add-ons one-1" type="text" placeholder="Label">
+                    <input style="width: 350px" class="add-ons one-2" type="Text" placeholder="Input Text">
+                    <input style="width: 240px;" class="add-ons one-3" type="submit">
+                </div>
+            </div>
         </div>
-        <div class="columns">
-            <input class = "box-input" type="text" name="searcg=h" id="search" placeholder="Search">
+        <div class="column column-two">
+            <div>
+                <br>
+                <input class="input-box" type="Text" placeholder="Search" >
+            </div>
+            <div>
+                <br>
+                <input class="input-box" type="Text" placeholder="Text Area">
+            </div>
             <br>
-            <!-- a button will come -->
+            <div>
+                <input class="btn" type="checkbox">
+                <label for="checkbox">Checkbox</label>
+            </div>
             <br>
-            <input class = "box-input" type="checkbox">Checkbox
+            <div>
+                <input class="btn" type="radio">
+                <label for="radio">Radio Button</label>
+            </div>
             <br>
-            <input class = "box-input" type="radio">Radio Button
-            <br>
-            <!-- switch button ayega --> 
+            <div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                <label for="radio">Switch</label>
+            </div>
         </div>
     </div>
 </body>

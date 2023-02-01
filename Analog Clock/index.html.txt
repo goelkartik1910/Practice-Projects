@@ -1,0 +1,11 @@
+<div id="clockContainer">
+  <div id="clock">
+    <div class="clockFace">
+      <div class="clockHandsContainer">
+        <div class="clockHourHand"></div>
+        <div class="clockMinuteHand"></div>
+        <div class="clockSecondHand"></div>
+      </div>
+    </div>
+  </div>
+</div>

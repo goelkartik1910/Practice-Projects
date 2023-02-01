@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Navbar Code -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Naruto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #495057" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #0D6EFD" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #0D6EFD" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #0D6EFD" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #0D6EFD" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <!-- Carousel Code -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.slashfilm.com/img/gallery/how-to-watch-the-naruto-franchise-in-order/l-intro-1655905173.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/10/roadtonarutopv_screenshot.png?resize=696%2C392&ssl=1" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://occ-0-2186-116.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYxJFBDckfZw1YUEIPwyuIg43Kw_HUBLvnCcgdOlvvf5Nc90SF3HSAi5L8uLyBqjziKBY-kGD2wu2JAqVsdHVR0frb6qG26I_U5v.jpg?r=77f" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <br>
+        
+        <!-- Cards Code -->
+        <div class="card-deck">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Card Header
+                        </div>
+                        <img class="card-img-top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76612106-8aba-4097-9619-baee44cc3b5f/db2d8fq-f13615cc-babe-4af8-a9cd-f1cc538d8abe.png/v1/fill/w_894,h_894,strp/naruto_shippuden_team_asuma__team_10__by_iennidesign_db2d8fq-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzc2NjEyMTA2LThhYmEtNDA5Ny05NjE5LWJhZWU0NGNjM2I1ZlwvZGIyZDhmcS1mMTM2MTVjYy1iYWJlLTRhZjgtYTljZC1mMWNjNTM4ZDhhYmUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.46IsGZNZM_6LJwE8gH9AxmZcWiG-iK7srq7HpdcJ8IQ" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1st List Item </li>
+                            <li class="list-group-item">2nd List Item</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text">Card Footer</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Card Header
+                        </div>
+                        <img class="card-img-top" src="https://i.pinimg.com/564x/28/3c/c4/283cc4eed8a805060328ee35229da69f.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1st List Item </li>
+                            <li class="list-group-item">2nd List Item</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        <div class="card-footer">
+                            <small class="card-text">Card Footer</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Card Header
+                        </div>
+                        <img class="card-img-top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76612106-8aba-4097-9619-baee44cc3b5f/db1bn4j-63929bb2-d956-4ece-8e69-3a234018a2bd.png/v1/fill/w_1280,h_1280,strp/naruto_shippuden__team_kurenai__team_8__by_iennidesign_db1bn4j-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzc2NjEyMTA2LThhYmEtNDA5Ny05NjE5LWJhZWU0NGNjM2I1ZlwvZGIxYm40ai02MzkyOWJiMi1kOTU2LTRlY2UtOGU2OS0zYTIzNDAxOGEyYmQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.j3HnKFOnoGzKve_1nfXj4D-x8AhhfICzaWyIBwdCnzU" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1st List Item </li>
+                            <li class="list-group-item">2nd List Item</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        <div class="card-footer">
+                            <small class="card-text">Card Footer</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Accordian Code -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Accordion Item 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is some Content.</strong>This is also some content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item 2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is some Content.</strong>This is also some content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item 3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is some Content.</strong>This is also some content.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Table Code -->
+        <table class="table table-responsive table-borderless">
+        
+            <thead>
+                <tr class="bg-light">
+                    <th scope="col" width="5%"><input class="form-check-input" type="checkbox"></th>
+                    <th scope="col" width="5%">#</th>
+                    <th scope="col" width="20%">Title</th>
+                    <th scope="col" width="20%">Title</th>
+                    <th scope="col" width="20%">Title</th>
+                    <th scope="col" class="text-end" width="20%"><span>Title</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>1</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>2</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+            <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>3</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>4</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>5</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>6</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>7</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>8</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>9</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                    <td>10</td>
+                    <td>Text Line</td>
+                    <td><i class="fa fa-check-circle-o green"></i><span class="ms-1">Text Line</span></td>
+                    <td>Text Line</td>
+                    <td class="text-end">
+                        <a href="#">Publish </a>
+                        <a href="#">Edit </a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Bootstrap Form -->
+        <h5 style="font-weight: 800; margin-bottom: 30px;">Bootstrap Form</h5>
+
+        <form>
+            <div class="form-group row margin">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-group margin">
+                <input type="email" class="form-control" id="email" placeholder="Email Address">
+            </div>
+            <div class="form-group margin">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group margin">
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+            </div>
+            <button type="submit" style="margin-bottom: 30px;" class="btn btn-primary margin">Submit Form</button>
+        </form>
+
+    </div>
+</body>
+</html>
